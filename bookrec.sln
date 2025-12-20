@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookrec", "bookrec.csproj", "{14536080-14FF-B7C9-A8D7-A88886A9AA14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14536080-14FF-B7C9-A8D7-A88886A9AA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14536080-14FF-B7C9-A8D7-A88886A9AA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14536080-14FF-B7C9-A8D7-A88886A9AA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14536080-14FF-B7C9-A8D7-A88886A9AA14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73DB0768-E13F-45CF-A902-9269F1418A30}
+	EndGlobalSection
+EndGlobal
