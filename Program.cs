@@ -4,6 +4,7 @@ using bookrec.DataManip;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
@@ -20,6 +21,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+
+DataManip data = new DataManip();
+
+Console.WriteLine(data.Test());
 
 app.UseAntiforgery();
 

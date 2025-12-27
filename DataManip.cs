@@ -1,24 +1,28 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using static System.Math;
+using bookrec.Data;
+using bookrec.Models;
 namespace bookrec.DataManip;
 
 
 
-internal class DataManip
+
+public class DataManip
 {
-    DataManip()
+    public DataManip()
     {
         Console.WriteLine("IN data mainp");
+
     }
 
 
     public double CosineSimilarity(long book1, long book2)
     {
-        int[] ratings1 = {};
-        int[] ratings2 = {};
+        int[] ratings1 = { };
+        int[] ratings2 = { };
 
-        double dot = 0; 
+        double dot = 0;
         double magnitude1 = 0;
         double magnitude2 = 0;
 
@@ -39,9 +43,19 @@ internal class DataManip
 
 
 
-        
+
 
     }
 
-    
+    public string Test()
+    {
+        using BookContext context = new BookContext();
+
+        var book = context.Book.OrderBy(a => a.Id).FirstOrDefault();
+
+        return $"{book.Isbn}";
+
+    }
+
+
 }
