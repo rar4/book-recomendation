@@ -84,7 +84,7 @@ dotnet run
 - Creation of Recomendation table
 - Actual recomending business logic
 
-**Components/** - Reusable Blazor components (BookCard, RatingComponent, SearchBar, RecommendationList)
+**Components/** - Main page with all stuff
 
 **wwwroot/** - Static files (stylesheets, client-side JavaScript, images)
 
