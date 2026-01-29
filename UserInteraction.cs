@@ -32,7 +32,7 @@ static class UserInteraction
 
     static public void DbErrorEndpoint(Utils utils)
     {
-        utils.SaveRating(0, (int) utils.GetRecomendedBookIsbnAndId()[1]);
+        utils.SaveRating(3, (int) utils.GetRecomendedBookIsbnAndId()[1]);
     }
     
 
