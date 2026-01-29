@@ -103,7 +103,7 @@ fetch("http://localhost:5207/api/feed")
 })
 .then(data => {
     if(data.title == null){
-        fetch("api/dberror").then(setTimeout(() => {location.reload();}, 1500) );
+        fetch("api/dberror").then(setTimeout(() => {location.reload();}, 2500) );
     }
     let thumbnail;
     try{
@@ -169,4 +169,5 @@ function sendRating(id)
 
 
 </script>
+
 
