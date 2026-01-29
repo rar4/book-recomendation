@@ -113,7 +113,7 @@ fetch("http://localhost:5207/api/feed")
         thumbnail = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsboxsolo.libretexts.org%2Fsites%2Fdefault%2Ffiles%2Fdefault_images%2Fdefault_book.jpg&f=1&nofb=1&ipt=75844788720e827dad9ecc9ac72ef6bc166b2eeb59c9d31468ba0059daa328cf";
     }
     document.querySelector("#cover").setAttribute("src", thumbnail);
-    document.querySelector("#author").innerHTML = data.author;
+    document.querySelector("#author").innerHTML = data.authors[0];
     document.querySelector("#title").innerHTML = data.title;
     document.querySelector("#description").innerHTML = data.description;
     document.querySelector("#date").innerHTML = data.publishedDate;
@@ -169,5 +169,6 @@ function sendRating(id)
 
 
 </script>
+
 
 
