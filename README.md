@@ -32,6 +32,11 @@ book-recomendation/
 git clone https://github.com/rar4/book-recomendation.git
 cd book-recomendation
 
+#install .net 9.0
+
+winget install Microsoft.DotNet.SDK.9
+
+
 # Restore dependencies
 dotnet restore
 
